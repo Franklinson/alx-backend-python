@@ -4,7 +4,7 @@ multiplier as argument and returns a function that multiplies
 a float by multiplier"""
 
 
-import typing
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
